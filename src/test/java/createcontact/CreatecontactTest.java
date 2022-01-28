@@ -9,7 +9,13 @@ public class CreatecontactTest {
 		System.out.println("Contact created sucessflly");
 	}
 	@Test
-	public void modifycontact() {
+	public void modifycontacttest() {
 		System.out.println("contact modigied sucessfully");
+	}
+	
+	@Test
+	public void deletecontacttest()
+	{
+		System.out.println("delete the contact");
 	}
 }
