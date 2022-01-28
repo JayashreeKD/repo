@@ -10,7 +10,7 @@ public class OrgTest {
 	@Test(groups="smoketesting")
 	public void createorgtest()
 	{
-		System.out.println("Created organisation");
+		System.out.println("Created organisation" +System.getProperty("Browser"));
 		
 		}
 		@Test(groups="regresstesting")
