@@ -1,5 +1,6 @@
 package createorg;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 public class OrgTest {
@@ -11,5 +12,20 @@ public class OrgTest {
 	public void modifycontacttest() {
 		System.out.println("Organisation modifies sucessfully");
 	}
+	
+		
+	@Test(groups="smoketesting")
+	public void createorgtest()
+	{
+		System.out.println("Created organisation");
+		
+		}
+		@Test(groups="regresstesting")
+		public void modifyorgTest()
+		{
+			System.out.println("org modified");
+			
+		}
+		
 
 }

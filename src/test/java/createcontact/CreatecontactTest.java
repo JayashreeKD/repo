@@ -18,4 +18,15 @@ public class CreatecontactTest {
 	{
 		System.out.println("delete the contact");
 	}
+	@Test(groups="smoketesting")
+	public void contacttest()
+	{
+		System.out.println("Contact created sucessfully");
+	}
+	@Test(groups="regresstesting")
+	public void modifycontactingtest()
+	{
+		System.out.println("contact modified sucessfully");
+	}
+
 }
